@@ -1,6 +1,6 @@
 {
-    "name": "utils",
-    "description": "common modules, algorithms and general functions",
+    "name": "component.specs",
+    "description": "jasmine specifications",
     "version": "1.0.0",
     "author": "Marchuan Van Der Merwe",
     "type": "module",
@@ -11,25 +11,24 @@
         "npm": "9.5.1"
     },
     "keywords": [
-        "utilities",
-        "utils"
+        "tests",
+        "specs",
+        "specification",
+        "specifications"
     ],
     "files": [
         "lib"
     ],
-    "scripts": {
-        "test": "node specs/index.mjs"
-    },
+    "scripts": {},
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/marchuanv/utils.git"
+        "url": "git+https://github.com/marchuanv/component.specs.git"
     },
     "bugs": {
-        "url": "https://github.com/marchuanv/utils/issues"
+        "url": "https://github.com/marchuanv/component.specs/issues"
     },
-    "homepage": "https://github.com/marchuanv/utils#readme",
+    "homepage": "https://github.com/marchuanv/component.specs#readme",
     "dependencies": {
-        "@hyperjump/json-schema": "^1.6.5",
         "jasmine": "^5.1.0"
     }
 }
