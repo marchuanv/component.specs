@@ -19,7 +19,9 @@
     "files": [
         "lib"
     ],
-    "scripts": {},
+    "scripts": {
+        "start": "node ./test.mjs"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/marchuanv/component.specs.git"
@@ -29,6 +31,7 @@
     },
     "homepage": "https://github.com/marchuanv/component.specs#readme",
     "dependencies": {
-        "jasmine": "^5.1.0"
+        "jasmine": "^5.1.0",
+        "jasmine-reporters": "^2.5.2"
     }
 }
